@@ -1,0 +1,323 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html{
+	margin: 0 !important;
+	padding: 0 !important;
+	background-color: #fff;
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+}
+.row{
+	overflow: hidden;
+}
+.navbar-inverse{
+	background-color: #000;
+	height: 12vh;
+	padding: 0 3vw !important;
+}
+.navbar-header a{
+	font-family: 'Segoe UI';
+	font-size: 4vmin;
+	padding: 4vh; 
+}
+.navbar-nav li a{
+	font-family: 'Segoe UI';
+	font-size: 2.3vmin;
+	font-weight: 500;
+	padding: 5vh 1vw; 
+}
+.navbar-nav li a:hover{
+	transition: all 0.3s linear;
+	background-color: #fff !important;
+	color: #000 !important;
+}
+.navbar-nav li{
+	padding:0 auto !important;
+}
+.section-inicio{
+	padding-top: 50vh;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../imagens/background.jpg);
+	background-size: cover;
+	position: relative;
+	box-shadow: 1px 1px 6px 2px #000;
+	z-index: 1;
+}
+.section-sobre{
+	width: 100vw;
+	height: 100vh;
+}
+.sobre-img{
+	width: 50vw;
+	height: 100vh;
+	background-image: url(../imagens/img-sobre.png);
+	background-size: cover;
+	position: relative
+}
+.sobre-txt{
+	padding: 10vh 3vw;
+	width: 50vw;
+	height: 100vh;
+}
+.sobre-txt p:first-child{
+	line-height: 10vh;
+	font-size: 4rem;
+	font-family: 'Bodoni Bk BT';
+	font-weight: 600;
+	color: #A20B0D;
+}
+.sobre-txt p:last-child{
+	font-family: 'Bodoni Bk BT';
+	font-size: 3.7vmin;
+}
+.section-cardapio{
+	padding: 7vh 3vw;
+	width: 100vw;
+	height: 100vh;
+	background-color: #FFC639;
+}
+.section-cardapio h1{
+	line-height: 16vh;
+	font-family: 'Bodoni Bk BT';
+	font-weight: 600;
+	text-align: center;
+	color: #000;
+}
+.section-cardapio .thumbnail:hover{
+	box-shadow: 0px 2px 14px 2px #666;
+	transition: all 0.3s linear;
+}
+.section-cardapio .thumbnail a:hover,
+.section-cardapio .thumbnail a:focus{
+	text-decoration: none !important;
+	font-size: 15px;
+}
+.section-rec{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.slide{
+	margin: 0 !important;
+	width: 100vw;
+	height: 50vh;
+}
+.slide .feedback{
+	font-family: 'Bodoni Bk BT';
+	font-weight: 600;
+	color: #000;
+	line-height: 7vh;
+}
+.carousel .carousel-inner .item .media img{
+	border-radius: 50%;
+	padding: 2px;
+	border: 4px solid #000;
+}
+.carousel .carousel-inner .item .media{
+	width: 100vw;
+	height: 50vh;
+	padding: 5vh 10vw;
+	position: relative;
+}
+.carousel .carousel-inner .item .media p:last-child{
+	font-family: 'Verdana';
+	font-size: 3vmin;
+}
+.carousel .carousel-inner .item .media p:first-child{
+	font-family: 'Verdana';
+	font-size: 4vmin;
+	color: #FFC639;
+}
+.section-contato{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../imagens/background-img1.jpg);
+	background-size: cover;
+	padding: 20vh 10vw;
+	position: relative;
+	z-index: 4;
+}
+.section-contato .formulario{
+	width: 50vw;
+	height: 60vh;
+	font-family: 'Segoe UI';
+	font-weight: 600;
+	font-size: 5vmin;
+	color: #000 !important;
+}
+.section-contato h1{
+	color: #fff;
+	font-family: 'Bodoni Bk BT';
+	font-weight: 600;
+	line-height: 10vh;
+}
+.section-contato .formulario input{
+	border: 0 !important;
+	border-radius: 0 !important;
+	padding: 20px;
+	background-color: #fff;
+	color: #000 !important;
+}
+.section-contato .formulario textarea{
+	border: 0 !important;
+	border-radius: 0 !important;
+	padding: 20px;
+	background-color: #fff;
+	color: #000 !important;
+}
+.section-contato .formulario button{
+	width: 25vw;
+	height: 8vh;
+	border: 0 !important;
+	border-radius: 0 !important;
+	background-color: #FFC639;
+	font-family: 'Segoe UI';
+	font-weight: 800;
+}
+.section-contato .formulario button:hover,
+.section-contato .formulario button:focus,
+.section-contato .formulario button:active{
+	background-color: #FFBB15;
+	border: 0 !important;
+	border-radius: 0 !important;
+}
+.section-footer{
+	width: 100vw;
+	height: 50vh;
+	background-color: #111;
+	padding: 10vh 0;
+}
+.tel{
+	color: #777;
+	font-family: 'Segoe UI';
+}
+.tel .fa{
+	font-size: 22px;
+}
+.tel p{
+	font-size: 17px;
+}
+.end{
+	color: #777;
+	font-family: 'Segoe UI';
+}
+.end .fa{
+	font-size: 22px;
+}
+.end p{
+	font-size: 17px;
+}
+.section-redessociais{
+	width: 100vw;
+	height: 10vh;
+	background-color: #060911;
+	padding: 3vh 0;
+}
+.section-redessociais .fa{
+	font-size: 30px;
+	color: #fff;
+	margin:0 3vw;
+}
+.section-redessociais .fa:hover,
+.section-redessociais .fa:focus{
+	color: #FFC639;
+}
+.section-autor{
+	width: 100vw;
+	height: 7vh;
+	background-color: #000;
+	padding: 2vh;
+}
+.section-autor p{
+	font-family: 'Segoe UI';
+	color: #fff;
+}
+
+
+@media(max-width: 768px){
+	.navbar .navbar-header button{
+		border-radius: 0 !important;
+		border: 0 !important;
+		padding: 5px;
+	}
+	.navbar-header{
+		padding: 1% 0;
+	}
+	.navbar .navbar-header .navbar-toggle .icon-bar{
+		background-color: #fff;
+		width: 30px;
+		height: 4px;
+		margin: 5px;
+	}
+	.navbar-collapse{
+		background-color: #000;
+		overflow: hidden !important;
+	}
+	.navbar-inverse{
+		border: 0 !important;
+		padding: 0 !important;
+	}
+	.section-sobre{
+	width: 100vw;
+	height: 100vh;
+	}
+	.sobre-img{
+		background-image: none !important;
+	}
+	.sobre-txt{
+	padding: 25vh 3vw;
+	width: 100vw;
+	height: 100vh;
+	}
+	.sobre-txt p:first-child{
+	line-height: 5vh;
+	font-size: 4vmax;
+	font-family: 'Bodoni Bk BT';
+	font-weight: 600;
+	color: #A20B0D;
+	}
+	.sobre-txt p:last-child{
+	font-family: 'Bodoni Bk BT';
+	font-size: 5vmin;
+	}
+	.section-cardapio{
+	padding: 7vh 3vw;
+	width: 100vw;
+	height: auto;
+	background-color: #FFC639;
+	}
+	.section-cardapio h1{
+	line-height: 16vh;
+	font-family: 'Bodoni Bk BT';
+	font-weight: 600;
+	text-align: center;
+	color: #000;
+	}
+	.section-cardapio .thumbnail:hover{
+	box-shadow: 0px 2px 14px 2px #666;
+	transition: all 0.3s linear;
+	}
+	.section-carpadio .thumbnail{
+		width: 50vw;
+		height: 50vh;
+	}
+	.section-cardapio .thumbnail a:hover,
+	.section-cardapio .thumbnail a:focus{
+	text-decoration: none !important;
+	font-size: 15px;
+	}
+	.carousel .carousel-inner .item{
+	width: 100vw;
+	height: 50vh;
+	position: relative;
+	}
+	.section-footer{
+	width: 100vw;
+	height: auto;
+	background-color: #111;
+	padding: 10vh 0;
+	}
+}
